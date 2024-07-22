@@ -3,7 +3,9 @@ import React from 'react'
 function About() {
   return (
     <div>
-      <h1>hello</h1>
+      <section>
+        <div className='col-md-6'></div>
+      </section>
     </div>
   )
 }
