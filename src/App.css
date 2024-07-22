@@ -1,0 +1,67 @@
+body
+{
+    font-family: "Oswald", sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(41deg, rgba(0,0,0,1) 0%, rgba(25,0,255,1) 100%);
+}
+.menu
+{
+    align-content: center;
+}
+.menu ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+    margin: 0;
+}
+.menu li{
+    padding: 0px 20px;
+}
+.menu li a,.logo
+{
+    text-decoration: none;
+    color: #fff;
+}
+.contact_btn
+{
+    align-content: center;
+}
+.contact_btn button
+{
+    border-radius: 30px;
+    padding: 5px 20px;
+    outline: 0px;
+    border: 0;
+    background-color: black;
+    color: #fff;
+}
+/* home-css */
+.hero-slider
+{
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-slider video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 9;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+.hero-inner{
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    top: 40%;
+    color: #fff;
+}
+.hero-inner-text{
+    z-index: 99;
+    top: 40%;
+    color: #fff;
+}
